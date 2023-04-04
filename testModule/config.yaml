@@ -1,0 +1,10 @@
+-
+  name: saveModel
+  request:
+    method: post
+    url: http://192.168.11.222:8011/model/saveModel
+    data:
+      name: 张三
+  headers:
+    _uid: '3'
+  validate: None
