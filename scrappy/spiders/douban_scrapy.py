@@ -1,7 +1,7 @@
 import scrapy
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
-from lucky.items import LuckyItem
+from scrappy.items import LuckyItem
 
 
 class myScrapy(scrapy.Spider):
