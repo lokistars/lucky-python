@@ -14,8 +14,9 @@ def session_headers():
 
 
 # 在 pytest 的配置中添加一个名为 "slow" 的标记，以便在运行 pytest 时使用 -m 选项来选择特定的标记运行测试用例
+@pytest.hookimpl(tryfirst=True)
 def pytest_configure(config):
-    config.addinivalue_line("markers", "slow: mark test as slow to run")
+    config.addinivalue_line("markers", "model: mark test as model to run")
 
 
 def pytest_sessionstart(session):
