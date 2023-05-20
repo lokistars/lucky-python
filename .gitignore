@@ -5,6 +5,7 @@
 .project
 .classpath
 .settings/
+__pycache__/
 
 # Intellij
 *.ipr
